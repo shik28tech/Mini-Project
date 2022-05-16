@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to left bottom, #0e822f, #007564, #006399, #004ab0, #16178f);
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .search-box {
+    outline: none;
+    width: 100%;
+    border: 1px solid grey;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+  }
