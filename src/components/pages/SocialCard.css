@@ -1,8 +1,8 @@
 .card {
     transition: transform .3s ease;
     cursor: pointer;
-    width: 420px;
-    height: 200px;
+    width: 450px;
+    height: 280px;
     border-radius: 10px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -10,6 +10,11 @@
     background-color: lightgrey;
     margin: auto;
     margin-top:20px;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    background-image: linear-gradient(to right top, #ef5a11, #f37900, #f59700, #f3b200, #efcd19, #f5c51a, #fabe1d, #ffb622, #ff853a, #ff4b66, #ff009a, #d624d1);
+    
 }
 
 .card:hover {
@@ -21,5 +26,27 @@
     font-size: 1.5rem;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: underline overline;
+    margin-top: 10px;
+    text-decoration-color: red;
+    text-decoration-style: double;
+
 }
 
+.address{
+    font-size: 1rem;
+    padding-top: 2.5px;
+    padding-left: 15px;
+}
+
+.state{
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.sector{
+    font-size: 1rem;
+    padding-top: 2.5px;
+    padding-left: 15px;
+}

@@ -5,35 +5,35 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out the below Articles!</h1>
+      <h1>KNOW MORE ABOUT NGO</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/pic1.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              text='Environmental NGOs can play a crucial role in helping to plug gaps by conducting research to facilitate policy development, building institutional capacity, and facilitating independent dialogue with civil society to help people live more sustainable lifestyles.'
               path='/services'
             />
             <CardItem
               src='images/pic2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='NGOs play great role in environmental sustainability by addressing climate change, energy, waste management, pollution, biodiversity and land use.'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/pic3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='World hunger, global warming, increasing natural disasters, polluted air, water and soil, pesticide use in the fields, Species extinction, crop failures - we must not believe that we, as the only living beings on a sick planet, remain healthy. '
               path='/services'
             />
             <CardItem
               src='images/pic4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='The environmental NGOs play significant role in collaboration with the government, corporations and villagers on carbon emissions, in protecting forest and revenue wasteland, in creating awareness on water and air pollution as well as in bringing important environmental issues to the forefront.'
               path='/products'
             />
             <CardItem
               src='images/pic6.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='In nature, everything is interrelated.'
               path='/sign-up'
             />
           </ul>

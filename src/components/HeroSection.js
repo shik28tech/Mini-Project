@@ -9,13 +9,13 @@ function HeroSection() {
       <video src='/videos/bgvideo.mp4' autoPlay loop muted />
       <h1>JOIN HANDS TO SAVE THE NATURE</h1>
       <div className='hero-btns'>
-        <Button
+        {/* <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           GET STARTED
-        </Button>
+        </Button> */}
       </div>
     </div>
   );

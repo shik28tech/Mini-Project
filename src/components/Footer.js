@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Get in touch with us to work and know more about NGOs
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Provide the Email-ID below.
         </p>
         <div className='input-areas'>
           <form>
@@ -25,7 +25,7 @@ function Footer() {
           </form>
         </div>
       </section>
-      <div class='footer-links'>
+      {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
@@ -59,13 +59,13 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               ENVIRONLY
-              <i class='fab fa-typo3' />
+              <i class="fa-solid fa-leaf"></i>
             </Link>
           </div>
           <small class='website-rights'>2022</small>

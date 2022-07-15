@@ -1,19 +1,26 @@
 body {
-    background-image: linear-gradient(to left bottom, #0e822f, #007564, #006399, #004ab0, #16178f);
-    background-repeat: no-repeat;  
-    background-attachment: fixed;
-  }
-  
-  .cards-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .search-box {
-    outline: none;
-    width: 100%;
-    border: 1px solid grey;
-    font-size: 1rem;
-    padding: 1rem;
-    border-radius: .5rem;
-  }
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-box {
+  outline: none;
+  width: 100%;
+  border: 1px solid grey;
+  font-size: 1rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  opacity: 70%;
+}
+
+.App h1{
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
